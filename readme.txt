@@ -12,9 +12,9 @@ development workflow with git. Follow These steps closely.
 
 4. Link a styles.css file and set the page’s background color to black and the
 heading’s text color to white. ⇩
+
 5. Style the <div> to be a circle with a width & height of 100px and some initial
 background color.
-
 
 
 
@@ -23,7 +23,9 @@ activated when the <div> is clicked and prints a message to the console.
 7. Commit the changes to the CSS file only (not the script file). ⇩
 8. We forgot to center the ball horizontally in the page. Add margins to accomplish
 this and use the commit amend option to redo the last commit. ⇩
+
 9. Commit the new JavaScript file and the changes to the HTML. ⇩
+
 10.Change onBallClick() to increment the ball’s width & height by 50px and
 display the updated diameter inside the ball. Remove the console.log(). ⇩
 11. Add more styling rules: center the text inside the div, set the font size to 22px and
