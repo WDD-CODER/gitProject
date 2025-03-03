@@ -12,9 +12,12 @@ development workflow with git. Follow These steps closely.
 
 4. Link a styles.css file and set the page’s background color to black and the
 heading’s text color to white. ⇩
-
 5. Style the <div> to be a circle with a width & height of 100px and some initial
 background color.
+
+
+
+
 6. Add a main.js file with a click event handler - onBallClick() , which is
 activated when the <div> is clicked and prints a message to the console.
 7. Commit the changes to the CSS file only (not the script file). ⇩

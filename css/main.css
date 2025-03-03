@@ -9,3 +9,15 @@ body{
 h1{
     color: white;
 }
+
+.ball{
+width: 100px;
+height: 100px;
+
+margin: auto;
+border-radius: 50%;
+background-color: bisque;
+border: 1px black solid;
+
+
+}
