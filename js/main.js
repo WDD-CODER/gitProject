@@ -15,11 +15,17 @@ function onBallClick() {
     var currHeight = parseInt(getComputedStyle(elBall).height)
     var currWidth = parseInt(getComputedStyle(elBall).width)
 
-
     elBall.style.height = (currHeight + 50) + "px";
     var width = elBall.style.width = (currWidth + 50) + "px";
     elBall.innerText = width
-    
+
     console.log("🚀 Updated height:", elBall.style.height);
     console.log("🚀 Updated width:", elBall.style.width);
+    
+    if (elBall.style.height > '400px') {
+        elBall.style.height = '100px' 
+        elBall.style.width = '100px' 
+        elBall.innerText = 100
+
+    }
 }

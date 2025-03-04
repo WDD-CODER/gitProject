@@ -34,10 +34,10 @@ files. Don’t forget to checkout the main branch again when you are done!
 to 100px. Add a 1 second transition to make the ball change size smoothly. ⇩
 
 
-
-
 14.Undo the last commit and split it into two separate commits. The first one should
 only include the changes to the JavaScript ⇩ and the second should only include
 the changes to the CSS ⇩.
+
+
 15.Add a my-notes.txt file and a .gitignore file to the project. Include the
 my-notes.txt file in the .gitignore file and add any other files which may have
