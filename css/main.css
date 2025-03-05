@@ -28,7 +28,6 @@ h1 {
     border: 1px black solid;
 
     transition: 0.5s  ease-out ;
-
 }
 .ball2 {
     display: flex;
@@ -48,5 +47,23 @@ h1 {
     border: 1px black solid;
 
     transition: 0.5s  ease-out ;
+}
+.ball3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+    width: 100px;
+    height: 100px;
+
+    margin: auto;
+
+    font-weight: bold;
+    font-size: 22px;
+
+    border-radius: 50%;
+    background-color: rgb(127, 195, 56);
+    border: 1px black solid;
+
+    transition: 0.5s  ease-out ;
 }

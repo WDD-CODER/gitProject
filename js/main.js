@@ -1,12 +1,28 @@
 'use strict';
 
-// 28.Add a maxDiameter parameter to onBallClick() which will be used as an
-// upper limit to the ball’s size. If a ball reaches its diameter limit, its size is reset to
-// 100px. In the HTML file, pass different values as arguments to the function calls
-// of each ball. Commit the changes and sync the remote. ⇩
+// 1. Add a third ball. When it is clicked, swap the colors 
+// and sizes of the first two balls
 
+function switchBallColor(){
+const elBall1 = document.querySelector('.ball')
+const elBall2 = document.querySelector('.ball2')
+
+const elCurColor1 = window.getComputedStyle(elBall1).backgroundColor;
+const elCurColor2 = window.getComputedStyle(elBall2).backgroundColor;
+
+elBall1.style.backgroundColor = elCurColor2
+elBall2.style.backgroundColor = elCurColor1
+
+}
 
 function onBallClick(elBall, maxDiameter) {
+    
+    if (elBall.classList.contains('ball3')){
+        switchBallColor()
+       return
+        
+    }
+        
     if (!elBall) return
     const currHeight = parseInt(getComputedStyle(elBall).height)
     const currWidth = parseInt(getComputedStyle(elBall).width)
