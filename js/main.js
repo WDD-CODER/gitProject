@@ -1,7 +1,6 @@
 'use strict';
 
-function onBallClick() {
-    const elBall = document.querySelector('.ball');
+function onBallClick(elBall) {
     if (!elBall) return
     const currHeight = parseInt(getComputedStyle(elBall).height)
     const currWidth = parseInt(getComputedStyle(elBall).width)

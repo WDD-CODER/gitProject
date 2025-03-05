@@ -7,16 +7,16 @@ work from there.
 19.Add a util.js file and add a getRandomInt() function inside it. ⇩
 20.Change onBallClick() to increment the ball’s diameter by a random amount
 between 20px and 60px. ⇩
-
 21.Add a getRandomColor() function to the util.js file and change the ball’s color
 to a random color each time it is clicked. ⇩
-
 22.Sync your changes to the remote repo. Navigate to the remote to see that all
 changes from the clone have been synced to it.
 23.Add another ball to the HTML. Give it a different class name and style it with a
 different initial color. Don’t commit the changes yet!
+
 24.Switch to an older commit - you get an error because your working tree isn’t
 clean and git doesn’t want to overwrite it.
+
 25.Stash the changes and now try switching to an older commit again. This should
 work.
 26.Switch back to the main branch and pop the stash.
