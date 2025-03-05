@@ -9,22 +9,23 @@
 //     console.log('hi there!');
 // }
 
+// 20.Change onBallClick() to increment the ball’s diameter by a random amount
+
+
 function onBallClick() {
     const elBall = document.querySelector('.ball');
     if (!elBall) return
     var currHeight = parseInt(getComputedStyle(elBall).height)
     var currWidth = parseInt(getComputedStyle(elBall).width)
 
-    elBall.style.height = (currHeight + 50) + "px";
-    var width = elBall.style.width = (currWidth + 50) + "px";
-    elBall.innerText = width
+    var randomNum = getRandomInt(20, 60)
+    var newHeight = elBall.style.height = (currHeight + randomNum) + "px";
+    var newWidth = elBall.style.width = (currWidth + randomNum) + "px";
+    elBall.innerText = newWidth
 
-    console.log("🚀 Updated height:", elBall.style.height);
-    console.log("🚀 Updated width:", elBall.style.width);
-    
-    if (elBall.style.height > '400px') {
-        elBall.style.height = '100px' 
-        elBall.style.width = '100px' 
+    if (elBall.style.height > '400px' || elBall.style.width > '400px') {
+        elBall.style.height = '100px'
+        elBall.style.width = '100px'
         elBall.innerText = 100
 
     }

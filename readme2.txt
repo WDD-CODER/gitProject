@@ -2,13 +2,13 @@
 
 17.Back in your regular local version of VSCode, you can follow the links to older
 commits in the remote. Try it out.
-
 18.Clone your remote repository in a new empty folder. Open it and continue your
 work from there.
-
 19.Add a util.js file and add a getRandomInt() function inside it. ⇩
 20.Change onBallClick() to increment the ball’s diameter by a random amount
 between 20px and 60px. ⇩
+
+
 21.Add a getRandomColor() function to the util.js file and change the ball’s color
 to a random color each time it is clicked. ⇩
 22.Sync your changes to the remote repo. Navigate to the remote to see that all
