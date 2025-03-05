@@ -2,6 +2,10 @@
 
 17.Back in your regular local version of VSCode, you can follow the links to older
 commits in the remote. Try it out.
+לא הבנתי לגמרי את המשמעות של זה ץ מה המשמעות של לעקוב אחר הלינקים ?
+
+
+
 18.Clone your remote repository in a new empty folder. Open it and continue your
 work from there.
 19.Add a util.js file and add a getRandomInt() function inside it. ⇩
@@ -13,17 +17,17 @@ to a random color each time it is clicked. ⇩
 changes from the clone have been synced to it.
 23.Add another ball to the HTML. Give it a different class name and style it with a
 different initial color. Don’t commit the changes yet!
-
 24.Switch to an older commit - you get an error because your working tree isn’t
 clean and git doesn’t want to overwrite it.
-
 25.Stash the changes and now try switching to an older commit again. This should
 work.
 26.Switch back to the main branch and pop the stash.
 27.Commit the changes in the working tree. ⇩
+
 28.Add a maxDiameter parameter to onBallClick() which will be used as an
 upper limit to the ball’s size. If a ball reaches its diameter limit, its size is reset to
 100px. In the HTML file, pass different values as arguments to the function calls
 of each ball. Commit the changes and sync the remote. ⇩
+
 29.Bonus: Open the remote repo on GitHub and set up GitHub pages to run the
 project
