@@ -8,9 +8,9 @@ work from there.
 20.Change onBallClick() to increment the ball’s diameter by a random amount
 between 20px and 60px. ⇩
 
-
 21.Add a getRandomColor() function to the util.js file and change the ball’s color
 to a random color each time it is clicked. ⇩
+
 22.Sync your changes to the remote repo. Navigate to the remote to see that all
 changes from the clone have been synced to it.
 23.Add another ball to the HTML. Give it a different class name and style it with a
